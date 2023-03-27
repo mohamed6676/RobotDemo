@@ -25,29 +25,29 @@ MySecondTest
 MyThirdTest
     Log    Hello Third...
 
-#FirstSeleniumTest
-#    Open Browser    https://google.com      chrome
-#    Set Browser Implicit Wait    2
-#    Input Text    name=q                    Automation Step by Step
-#    Press Keys      name=q      ESCAPE
-#    Click Button      xpath=//div[4]//center/input[1]
-#    Sleep    3
-#    Close Browser
-#    Log     Test Completed
+FirstSeleniumTest
+    Open Browser    https://google.com      chrome
+    Set Browser Implicit Wait    2
+    Input Text    name=q                    Automation Step by Step
+    Press Keys      name=q      ESCAPE
+    Click Button      xpath=//div[4]//center/input[1]
+    Sleep    3
+    Close Browser
+    Log     Test Completed
 
-#SamleLoginTest
-#    [Documentation]     This is simple login test
-#    Open Browser        ${URL}
-#    Set Browser Implicit Wait    3
-#    LoginNow
-#    Click Element       xpath=//header/div[1]/div[2]//ul/li/span
-#    Click Element       link=Logout
-#    Sleep    2
-#    Close Browser
-#    Log                 Test Completed..!
-#    #EnvironmentVariables
-#    Log    This test was executed by %{username} on %{os}
-#
+SamleLoginTest
+    [Documentation]     This is simple login test
+    Open Browser        ${URL}
+    Set Browser Implicit Wait    3
+    LoginNow
+    Click Element       xpath=//header/div[1]/div[2]//ul/li/span
+    Click Element       link=Logout
+    Sleep    2
+    Close Browser
+    Log                 Test Completed..!
+    #EnvironmentVariables
+    Log    This test was executed by %{username} on %{os}
+
 
 
 *** Keywords ***
