@@ -1,0 +1,24 @@
+1679928617743	geckodriver	INFO	Listening on 127.0.0.1:54777
+1679928620810	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54778" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\mohamed.ali\\AppData\\Local\\Temp\\rust_mozprofile5ce7j9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679928621194	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1679928621197	Marionette	INFO	Listening on port 54804
+Read port: 54804
+WebDriver BiDi listening on ws://127.0.0.1:54778
+1679928621300	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\mohamed.ali\\AppData\\Local\\Temp\\rust_mozprofile5ce7j9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54778/devtools/browser/76d01325-c06b-4ff5-82bf-b69d6a5c7931
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+1679928911000	Marionette	INFO	Stopped listening on port 54804
+Dynamically enable window occlusion 1
